@@ -154,17 +154,27 @@ p {
 
 
 input[type=submit] {
-    background:#4aaaa5; 
+    background: #4aaaa5;
     color: #fff;
-    border:0 none;
-    cursor:pointer;
+    border: 0 none;
+    cursor: pointer;
     padding: 10px 20px 10px 20px;
 }
 
-input[value] {
-    color: #dddddd;
+input[type=text] {
+    color: #777777;
     padding-left: 10px;
 }
+
+input[type=email] {
+    color: #777777;
+    padding-left: 10px;
+}
+
+/* input[placeholder] {
+    color: #dddddd;
+    padding-left: 10px;
+} */
 
 .site-footer {
     background-color: #666666;
