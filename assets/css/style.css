@@ -83,12 +83,69 @@ a:hover {
     border: 1px solid #dddddd;
     z-index: 2;
     margin: 20px auto;
-    height: auto;
+    height: 800px;
+    padding: 20px;
+}
+
+.portfolio-content {
+    max-width: 930px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    z-index: 2;
+    margin: 20px auto;
+    height: 800px;
     padding: 20px;
 }
 
 p {
     line-height: 24px;
+}
+
+.portfolio {
+    display: block;
+    position: relative;
+}
+
+.portfolio-img {
+    width: 200px;
+    margin: 20px;
+    height: auto;
+    border: 2px solid #666666;
+    z-index: 2;
+    float: left;
+}
+
+.portfolio-btn {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 18px;
+    height: 50px;
+    width: 204px;
+    text-align: center;
+    z-index: 3;
+    padding: 20px 0px 0px 0px;
+    font-style: bold;
+}
+
+btn-1 {
+    top: 120px;
+    left: 20px;
+}
+
+btn-2 {
+    top: 120px;
+    left: 120px;
+}
+
+btn-3 {
+    top: 120px;
+    left: 220px;
+}
+
+btn-4 {
+    top: 220px;
+    left: 20px;
 }
 
 .site-footer {
